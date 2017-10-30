@@ -1,0 +1,244 @@
+@font-face{
+	font-family: bangna;
+	src: url(../fonts/bangna-new.ttf);
+}
+
+body{
+	font-family: bangna;
+	background: url(../img/workspacebg.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.white-background{
+	background: #FFF;
+}
+
+.transparent-background{
+	background: transparent;
+}
+
+.overlay{
+	background: rgba(0,0,0,0.8);
+	z-index: 1;
+	height: 100%;
+}
+
+.header-wrapper{
+	padding-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 50px;
+}
+
+a{
+	color: #FFF;
+	text-decoration: none;
+}
+a:hover{
+	color: #0c4036;
+	text-decoration: none;
+}
+.header-wrapper .header-img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+}
+
+.header-wrapper .header-menu{
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+  	text-align:center;
+}
+@media (max-width: 576px) { 
+	.header-wrapper .header-menu .menu-item{
+		padding: 15px 10px 15px 10px;
+	}
+}
+
+@media (min-width: 576px) { 
+	.header-wrapper .header-menu .menu-item{
+		padding: 15px 15px 15px 15px;
+	}
+}
+@media (min-width: 768px) { 
+	.header-wrapper .header-menu .menu-item{
+		padding: 15px 15px 15px 15px;
+	}
+}
+@media (min-width: 992px) { 
+	.header-wrapper .header-menu .menu-item{
+		padding: 15px 20px 15px 20px;
+	}
+}
+@media (min-width: 1200px) { 
+	.header-wrapper .header-menu .menu-item{
+		padding: 15px 50px 15px 50px;
+	}
+}
+
+.header-wrapper .header-menu .menu-item{
+	display:inline-block;
+	color: #28D2AF;
+}
+
+.header-wrapper .header-menu .menu-item a{
+	color: #28D2AF;
+	text-decoration: none;
+}
+
+.header-wrapper .header-menu .menu-item a:hover{
+	color: #0c4036;
+	text-decoration: none;
+}
+
+.gradient-background{
+	background: #28D2AF; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#28D2AF, #37B5C9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#28D2AF, #37B5C9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#28D2AF, #37B5C9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#28D2AF, #37B5C9); /* Standard syntax */
+    color: #FFF;
+}
+
+.intro-wrapper{
+	padding-top: 150px;
+	padding-bottom: 150px;	
+}
+
+.intro-wrapper .header{
+	text-align: center;
+	font-family: bangna;
+	width: 55%;
+	margin: auto;
+}
+
+.intro-wrapper .header h1{
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+
+.intro-wrapper .header h2{
+	font-size: 1em;
+}
+
+.footer-wrapper{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.card{
+	border: 0;
+	background: rgba(255,255,255,1);
+	
+}
+.content-card-wrapper{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.content-card{
+	display: -webkit-inline-box;
+	padding: 10px;
+
+}
+.content-card .header{
+	font-size: 1em;
+	font-weight: bold;
+}
+.content-card .content{
+	font-size: 0.8em;
+}
+@media (max-width: 576px) { 
+	.content-card{
+		width: calc(100%);
+	}
+}
+@media (min-width: 576px) { 
+	.content-card{
+		width: calc(100%);
+	}
+}
+@media (min-width: 768px) { 
+	.content-card{
+		width: calc(100%/2);
+	}
+}
+@media (min-width: 992px) { 
+	.content-card{
+		width: calc(100%/2);
+	}
+}
+@media (min-width: 1200px) { 
+	.content-card{
+		width: calc(100%/4);
+	}
+}
+.footer-column-wrapper{
+	width: 100%;
+}
+
+@media (max-width: 576px) { 
+	.footer-column{
+		width: calc(100%);
+	}
+}
+@media (min-width: 576px) { 
+	.footer-column{
+		width: calc(100%);
+	}
+}
+@media (min-width: 768px) { 
+	.footer-column{
+		width: calc(98%/2);
+	}
+}
+@media (min-width: 992px) { 
+	.footer-column{
+		width: calc(98%/4);
+	}
+}
+@media (min-width: 1200px) { 
+	.footer-column{
+		width: calc(98%/4);
+	}
+}
+
+.footer-column{
+	display: -webkit-inline-box;
+	vertical-align: top;
+}
+.footer-column .content-wrapper{
+	display: block;
+	margin: 0;
+	padding: 35px;
+}
+.footer-column .content-wrapper h1{
+	font-size: 2em;
+	margin-bottom: 30px;
+
+}
+.footer-column .content-wrapper .content{
+	font-size: 0.8em;
+	line-height: 1.61;
+}
+
+.footer-column .content-wrapper .content .footer-list{
+	list-style: none;
+    margin-left: -40px; 
+}
+.footer-column .content-wrapper .content .item{
+	font-size: 2em;
+	display: -webkit-inline-box;
+	padding: 10px;
+}
+.footer-column .content-wrapper .content .item:first-child{
+	padding-left: 0px;
+}
+
