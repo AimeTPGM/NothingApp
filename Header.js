@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text, View } from 'react-native'
+import { Text, View, Linking } from 'react-native'
 import header from './stylesheets/header'
 
 export class Header extends React.Component {
@@ -19,7 +19,7 @@ export class Header extends React.Component {
 							<Text>Blog</Text>
 						</View>
 						<View>
-							<Text>Contact Us</Text>
+							<Text style={header.link} onPress={() => Linking.openURL('http://google.com')}>Contact Us</Text>
 						</View>
 					</View>
 				</View>
